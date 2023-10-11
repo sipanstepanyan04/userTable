@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(107, 58, 58));
+  padding: 16px;
+  display: flex;  
+  justify-content:  space-between;
+}
+
+.registration {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(31, 9, 237);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;  
+    color: rgb(221, 219, 236);
+
+    &:hover {
+      background-color: chocolate;
+    }
+  }
+}
+
+.content {
+  background-color:rgb(135, 189, 236);
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+table {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid rgb(57, 87, 236);
+}
+
+th {
+  border: 2px solid rgb(98, 60, 22);
+}
+
+td {
+  text-align: center;
+  border: 1px solid rgb(26, 24, 24);
+}
+
+.delete, .edit {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: antiquewhite;
+
+  &:hover {
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+  }
+}
+
+.delete {
+  background-color: red;
+  margin-right: 10px;
+}
+
+.edit {
+  background-color: rgb(24, 96, 13);
+}
